@@ -50,17 +50,21 @@ export default {
 }
 .what__img {
    margin-right: 36px;
+   margin-top: 36px;
 }
 .what__body {
-  color: #3333;
+
+  
 }
 .what__title {
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
   font-size: 55px;
+  color: #445161
 }
 .what__text {
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
   font-size: 20px;
+  color: #3333;
 }
 .what__text > p{
     margin: 36px 0;
