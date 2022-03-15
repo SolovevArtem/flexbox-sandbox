@@ -1,9 +1,10 @@
 <template>
   <div class="wrapper">
     <ContentSection class="ContentSection"></ContentSection>
-    <FooterSection class="FooterSection"></FooterSection>
     <WhatSection class="WhatSection"></WhatSection>
     <FlexColumnsSection class="FlexColumnsSection"></FlexColumnsSection>
+    <VerticalSection class="VerticalSection"></VerticalSection>
+    <FooterSection class="FooterSection"></FooterSection>
   </div>
 </template>
 
@@ -12,10 +13,17 @@ import ContentSection from "./components/ContentSection.vue";
 import FooterSection from "./components/FooterSection.vue";
 import WhatSection from "./components/WhatSection.vue";
 import FlexColumnsSection from "./components/FlexColumnsSection.vue";
+import VerticalSection from "./components/VerticalSection.vue";
 
 export default {
   name: "App",
-  components: { ContentSection, FooterSection, WhatSection, FlexColumnsSection },
+  components: {
+    ContentSection,
+    FooterSection,
+    WhatSection,
+    FlexColumnsSection,
+    VerticalSection,
+  },
 };
 </script>
 

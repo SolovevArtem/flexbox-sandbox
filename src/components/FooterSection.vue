@@ -17,12 +17,10 @@ export default {
 
 <style scoped>
 .FooterSection {
-  display:flex;
-  position: absolute;
+  display: flex;
   bottom: 0;
   width: 100%;
-
-  border: 1px solid green;
+  margin-top: auto;
 }
 .container {
 }

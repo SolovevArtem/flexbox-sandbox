@@ -57,14 +57,14 @@ export default {
   
 }
 .what__title {
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
   font-size: 55px;
   color: #445161
 }
 .what__text {
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
   font-size: 20px;
-  color: #3333;
+  color: rgb(129, 122, 122);
 }
 .what__text > p{
     margin: 36px 0;
