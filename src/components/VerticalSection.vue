@@ -34,11 +34,7 @@
                     obcaecati, nemo assumenda voluptatem ad consequuntur
                     blanditiis.Lorem ipsum dolor sit amet consectetur
                     adipisicing elit. Nisi facilis, provident voluptas dolor
-                    impedit consequuntur eaLorem ipsum dolor sit amet
-                    consectetur adipisicing elit. Nisi facilis, provident
-                    voluptas dolor impedit consequuntur ea Lorem ipsum dolor sit
-                    amet consectetur adipisicing elit. Nisi facilis, provident
-                    voluptas dolor impedit consequuntur ea
+               
                   </p>
                 </div>
                 <button class="vertical__btn">Лайк</button>
@@ -134,6 +130,7 @@ export default {
   font-size: 16px;
   line-height: 24px;
   flex: 1 1 auto;
+ 
 }
 .vertical__btn {
   display: block;
